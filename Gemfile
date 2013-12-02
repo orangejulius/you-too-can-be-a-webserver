@@ -6,6 +6,9 @@ gem 'rails', '4.0.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
+# Bootstrap 3
+gem 'bootstrap-on-rails'
+
 # Use LESS for stylesheets
 gem 'less-rails', '~> 2.4'
 

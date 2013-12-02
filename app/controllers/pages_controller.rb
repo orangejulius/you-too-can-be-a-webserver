@@ -2,6 +2,9 @@ class PagesController < ApplicationController
   def index
   end
 
+  def intro
+  end
+
   def html_example
   end
 

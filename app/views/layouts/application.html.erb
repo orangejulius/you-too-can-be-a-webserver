@@ -1,5 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head><%= yield :head %></head>
-<body><%= yield %></body>
+<head><%= stylesheet_link_tag 'application' %><%= yield :head %></head>
+<body><div class="container"><%= yield %></div></body>
 </html>

@@ -1,6 +1,7 @@
 RailsbridgeTalk::Application.routes.draw do
 
   get '/' => 'pages#index'
+  get '/html_example' => 'pages#html_example'
   get '/css_example' => 'pages#css_example'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

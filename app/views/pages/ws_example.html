@@ -1,0 +1,23 @@
+<% content_for :head do %>
+  <title>Example 4: Websockets</title>
+  <%= javascript_include_tag 'jquery' %>
+<% end %>
+<script type="text/javascript">
+  var socket = new WebSocket("ws://localhost:3007/websocket");
+  // When the connection is open, send some data to the server
+  socket.onopen = function () {
+      socket.send('Ping'); // Send the message 'Ping' to the server
+  };
+
+  // Log errors
+  socket.onerror = function (error) {
+      console.log('WebSocket Error ' + error);
+  };
+
+  // Log messages from the server
+  socket.onmessage = function (e) {
+      console.log('Server: ' + e.data);
+  };
+</script>
+<h1>Websocket data will appear below...</h1>
+<div id="content"></div>

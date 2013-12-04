@@ -10,4 +10,7 @@ class PagesController < ApplicationController
 
   def css_example
   end
+
+  def js_example
+  end
 end

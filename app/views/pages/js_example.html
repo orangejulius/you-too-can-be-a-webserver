@@ -1,0 +1,11 @@
+<% content_for :head do %>
+  <title>Example 3: Javascript XHR</title>
+  <%= javascript_include_tag 'jquery' %>
+<% end %>
+<script type="text/javascript">
+  $.get('http://localhost:3001/js_poll', function(data) {
+      $('#content').append(data);
+  });
+</script>
+<h1>Jquery will put stuff below...</h1>
+<div id="content"></div>

@@ -12,6 +12,8 @@ gem 'bootstrap-on-rails'
 # Use LESS for stylesheets
 gem 'less-rails', '~> 2.4'
 
+gem 'jquery-rails'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes

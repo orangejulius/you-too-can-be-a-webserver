@@ -13,4 +13,8 @@ class PagesController < ApplicationController
 
   def js_example
   end
+
+  def js_poll
+    render text: 'hello'
+  end
 end

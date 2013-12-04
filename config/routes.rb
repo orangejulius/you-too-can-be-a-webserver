@@ -5,4 +5,5 @@ RailsbridgeTalk::Application.routes.draw do
   get '/html_example' => 'pages#html_example'
   get '/css_example' => 'pages#css_example'
   get '/js_example' => 'pages#js_example'
+  get '/js_poll' => 'pages#js_poll'
 end

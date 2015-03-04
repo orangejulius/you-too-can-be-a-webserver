@@ -1,0 +1,9 @@
+<% content_for :head do %>
+  <title>Example X: File Uploads</title>
+<% end %>
+<h1>Fill out this nice form</h1>
+<form method="post" action="http://localhost:3006/file_upload" enctype="multipart/form-data">
+	<input type="file" name="the_file">
+	<input type="submit" value="Submit">
+</form>
+<div id="content"></div>

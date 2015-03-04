@@ -20,4 +20,7 @@ class PagesController < ApplicationController
 
   def ws_example
   end
+
+  def file_upload_example
+  end
 end
